@@ -14,16 +14,18 @@
  * English Version
  */
 $PHPMAILER_LANG = array();
-$PHPMAILER_LANG["provide_address"] = 'คุณต้องระบุอีเมล ผู้รับอย่างน้อย  1 ชื่อ ';
-$PHPMAILER_LANG["mailer_not_supported"] = ' ระบบไม่รองรับการส่งเมล์';
-$PHPMAILER_LANG["execute"] = 'ไม่สามารถดำเนินการ ';
-$PHPMAILER_LANG["instantiate"] = 'ไม่สามารถใช้งาน mail function';
-$PHPMAILER_LANG["authenticate"] = 'SMTP ผิดพลาด: ไม่สามารถ authenticate.';
+$PHPMAILER_LANG["provide_address"] = 'You must provide at least one ' .
+                                     'recipient email address.';
+$PHPMAILER_LANG["mailer_not_supported"] = ' mailer is not supported.';
+$PHPMAILER_LANG["execute"] = 'ไม่สามารถ execute: ';
+$PHPMAILER_LANG["instantiate"] = 'Could not instantiate mail function.';
+$PHPMAILER_LANG["authenticate"] = 'SMTP ผิดพลาด: ไม่สามารถรับรองได้.';
 $PHPMAILER_LANG["from_failed"] = 'The following From address failed: ';
-$PHPMAILER_LANG["recipients_failed"] = 'SMTP ผิดพลาด: รายชื่อผู้รับเหล่านี้ส่งล้มเหลว: ';
-$PHPMAILER_LANG["data_not_accepted"] = 'SMTP ผิดพลาด:  ไม่สามารถรับข้อมูล;
-$PHPMAILER_LANG["connect_host"] = 'SMTP ผิดพลาด: ไม่สามารถเชื่อมต่อ  SMTP host.';
-$PHPMAILER_LANG["file_access"] = 'ไม่สามารถเข้าถึงไฟล์ได้ : ';
-$PHPMAILER_LANG["file_open"] = 'File Error: ไม่สามารถเปิดไฟล์: ';
-$PHPMAILER_LANG["encoding"] = 'ไม่รู้จัก encoding: ';
+$PHPMAILER_LANG["recipients_failed"] = 'SMTP ผิดพลาด: The following ' .
+                                       'recipients failed: ';
+$PHPMAILER_LANG["data_not_accepted"] = 'SMTP ผิดพลาด: Data not accepted.';
+$PHPMAILER_LANG["connect_host"] = 'SMTP ผิดพลาด: Could not connect to SMTP host.';
+$PHPMAILER_LANG["file_access"] = 'Could not access file: ';
+$PHPMAILER_LANG["file_open"] = 'File ผิดพลาด: ไม่สามารถเปิดได้: ';
+$PHPMAILER_LANG["encoding"] = 'ไม่รู้จัก Encoding: ';
 ?>
